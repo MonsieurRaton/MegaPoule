@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: ab7ac3fe41594a741b90261a14151a8b
+timeCreated: 1495046485
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Kopter
+    100004: Kopter_OsAvBrasD
+    100006: Kopter_OsAvBrasG
+    100008: Kopter_OsBrasD
+    100010: Kopter_OsBrasG
+    100012: Kopter_OsDoigD00
+    100014: Kopter_OsDoigD01
+    100016: Kopter_OsDoigD10
+    100018: Kopter_OsDoigD11
+    100020: Kopter_OsDoigD20
+    100022: Kopter_OsDoigD21
+    100024: Kopter_OsDoigD30
+    100026: Kopter_OsDoigD31
+    100028: Kopter_OsDoigG00
+    100030: Kopter_OsDoigG01
+    100032: Kopter_OsDoigG10
+    100034: Kopter_OsDoigG11
+    100036: Kopter_OsDoigG20
+    100038: Kopter_OsDoigG21
+    100040: Kopter_OsDoigG30
+    100042: Kopter_OsDoigG31
+    100044: Kopter_OsMainD
+    100046: Kopter_OsMainG
+    100048: KopterOs_C
+    100050: KopterOs_Helice
+    100052: KopterOs_M
+    400000: //RootNode
+    400002: Kopter
+    400004: Kopter_OsAvBrasD
+    400006: Kopter_OsAvBrasG
+    400008: Kopter_OsBrasD
+    400010: Kopter_OsBrasG
+    400012: Kopter_OsDoigD00
+    400014: Kopter_OsDoigD01
+    400016: Kopter_OsDoigD10
+    400018: Kopter_OsDoigD11
+    400020: Kopter_OsDoigD20
+    400022: Kopter_OsDoigD21
+    400024: Kopter_OsDoigD30
+    400026: Kopter_OsDoigD31
+    400028: Kopter_OsDoigG00
+    400030: Kopter_OsDoigG01
+    400032: Kopter_OsDoigG10
+    400034: Kopter_OsDoigG11
+    400036: Kopter_OsDoigG20
+    400038: Kopter_OsDoigG21
+    400040: Kopter_OsDoigG30
+    400042: Kopter_OsDoigG31
+    400044: Kopter_OsMainD
+    400046: Kopter_OsMainG
+    400048: KopterOs_C
+    400050: KopterOs_Helice
+    400052: KopterOs_M
+    4300000: Kopter
+    7400000: Idle
+    7400002: GoAttack
+    7400004: Attacking
+    7400006: BackIdle
+    9500000: //RootNode
+    13700000: Kopter
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kopter
+        weight: 1
+      - path: KopterOs_M
+        weight: 1
+      - path: KopterOs_M/KopterOs_C
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00/Kopter_OsDoigD01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10/Kopter_OsDoigD11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20/Kopter_OsDoigD21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30/Kopter_OsDoigD31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00/Kopter_OsDoigG01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10/Kopter_OsDoigG11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20/Kopter_OsDoigG21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30/Kopter_OsDoigG31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/KopterOs_Helice
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GoAttack
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kopter
+        weight: 1
+      - path: KopterOs_M
+        weight: 1
+      - path: KopterOs_M/KopterOs_C
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00/Kopter_OsDoigD01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10/Kopter_OsDoigD11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20/Kopter_OsDoigD21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30/Kopter_OsDoigD31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00/Kopter_OsDoigG01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10/Kopter_OsDoigG11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20/Kopter_OsDoigG21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30/Kopter_OsDoigG31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/KopterOs_Helice
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attacking
+      takeName: Take 001
+      firstFrame: 82
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kopter
+        weight: 1
+      - path: KopterOs_M
+        weight: 1
+      - path: KopterOs_M/KopterOs_C
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00/Kopter_OsDoigD01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10/Kopter_OsDoigD11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20/Kopter_OsDoigD21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30/Kopter_OsDoigD31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00/Kopter_OsDoigG01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10/Kopter_OsDoigG11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20/Kopter_OsDoigG21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30/Kopter_OsDoigG31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/KopterOs_Helice
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BackIdle
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kopter
+        weight: 1
+      - path: KopterOs_M
+        weight: 1
+      - path: KopterOs_M/KopterOs_C
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00/Kopter_OsDoigD01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10/Kopter_OsDoigD11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20/Kopter_OsDoigD21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30/Kopter_OsDoigD31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00/Kopter_OsDoigG01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10/Kopter_OsDoigG11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20/Kopter_OsDoigG21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30/Kopter_OsDoigG31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/KopterOs_Helice
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
