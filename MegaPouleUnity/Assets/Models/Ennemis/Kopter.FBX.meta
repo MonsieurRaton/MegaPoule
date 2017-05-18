@@ -32,6 +32,7 @@ ModelImporter:
     100048: KopterOs_C
     100050: KopterOs_Helice
     100052: KopterOs_M
+    100054: KopterOs_Y
     400000: //RootNode
     400002: Kopter
     400004: Kopter_OsAvBrasD
@@ -59,11 +60,13 @@ ModelImporter:
     400048: KopterOs_C
     400050: KopterOs_Helice
     400052: KopterOs_M
+    400054: KopterOs_Y
     4300000: Kopter
     7400000: Idle
     7400002: GoAttack
     7400004: Attacking
     7400006: BackIdle
+    7400008: Hit
     9500000: //RootNode
     13700000: Kopter
   materials:
@@ -413,6 +416,90 @@ ModelImporter:
       - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30/Kopter_OsDoigG31
         weight: 1
       - path: KopterOs_M/KopterOs_C/KopterOs_Helice
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kopter
+        weight: 1
+      - path: KopterOs_M
+        weight: 1
+      - path: KopterOs_M/KopterOs_C
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD00/Kopter_OsDoigD01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD10/Kopter_OsDoigD11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD20/Kopter_OsDoigD21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasD/Kopter_OsAvBrasD/Kopter_OsMainD/Kopter_OsDoigD30/Kopter_OsDoigD31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG00/Kopter_OsDoigG01
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG10/Kopter_OsDoigG11
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG20/Kopter_OsDoigG21
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/Kopter_OsBrasG/Kopter_OsAvBrasG/Kopter_OsMainG/Kopter_OsDoigG30/Kopter_OsDoigG31
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/KopterOs_Helice
+        weight: 1
+      - path: KopterOs_M/KopterOs_C/KopterOs_Y
         weight: 1
       maskType: 3
       maskSource: {instanceID: 0}
