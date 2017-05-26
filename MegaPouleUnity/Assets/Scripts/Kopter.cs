@@ -6,7 +6,8 @@ public class Kopter : MonoBehaviour {
 
     [SerializeField] private float rotorRotationSpeed;
     [SerializeField] private Transform rotorBone;
-    [SerializeField] private Color hitColor;
+    private Texture standardTexture;
+    [SerializeField] private Texture hitTexture;
     private Animator myAnimator;
     private Material myMaterial;
     private IEnumerator coBlinking;
@@ -14,6 +15,7 @@ public class Kopter : MonoBehaviour {
     void Start () {
         myAnimator = GetComponent<Animator>();
         myMaterial = GetComponentInChildren<SkinnedMeshRenderer>().material;
+        standardTexture = myMaterial.GetTexture("_MainTex");
     }
 	
 	void Update () {
@@ -50,11 +52,11 @@ public class Kopter : MonoBehaviour {
     }
 
     private IEnumerator Blinking() {
-        WaitForSeconds wait = new WaitForSeconds(0.08f);
+        WaitForSeconds wait = new WaitForSeconds(0.1f);
         for (int i = 0; i<3; i++) {
-            myMaterial.color = hitColor;
+            myMaterial.SetTexture("_MainTex", hitTexture);
             yield return wait;
-            myMaterial.color = Color.white;
+            myMaterial.SetTexture("_MainTex", standardTexture);
             yield return wait;
         }
     }
