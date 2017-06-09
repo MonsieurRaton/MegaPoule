@@ -6,11 +6,26 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Poule_Ailes_Normales
+    100004: Poule_Corps
+    100006: Poule_Pates_Normales
     400000: //RootNode
+    400002: Poule_Ailes_Normales
+    400004: Poule_Corps
+    400006: Poule_Pates_Normales
     2300000: //RootNode
+    2300002: Poule_Ailes_Normales
+    2300004: Poule_Corps
+    2300006: Poule_Pates_Normales
     3300000: //RootNode
+    3300002: Poule_Ailes_Normales
+    3300004: Poule_Corps
+    3300006: Poule_Pates_Normales
     4300000: Poule
     4300002: Ginette
+    4300004: Poule_Corps
+    4300006: Poule_Ailes_Normales
+    4300008: Poule_Pates_Normales
     9500000: //RootNode
   materials:
     importMaterials: 1
