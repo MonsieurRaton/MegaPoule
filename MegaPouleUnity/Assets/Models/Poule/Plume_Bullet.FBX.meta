@@ -1,31 +1,15 @@
 fileFormatVersion: 2
-guid: 259a2943984767545bba7af518459647
-timeCreated: 1493496853
+guid: 0a0ef380c7af6644ba376c2cc0cef26d
+timeCreated: 1497295707
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Poule_Ailes_Normales
-    100004: Poule_Corps
-    100006: Poule_Pates_Normales
     400000: //RootNode
-    400002: Poule_Ailes_Normales
-    400004: Poule_Corps
-    400006: Poule_Pates_Normales
     2300000: //RootNode
-    2300002: Poule_Ailes_Normales
-    2300004: Poule_Corps
-    2300006: Poule_Pates_Normales
     3300000: //RootNode
-    3300002: Poule_Ailes_Normales
-    3300004: Poule_Corps
-    3300006: Poule_Pates_Normales
-    4300000: Poule
-    4300002: Ginette
-    4300004: Poule_Corps
-    4300006: Poule_Ailes_Normales
-    4300008: Poule_Pates_Normales
+    4300000: Plume_Bullet
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -72,7 +56,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -91,7 +75,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
