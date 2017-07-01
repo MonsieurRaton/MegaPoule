@@ -120,6 +120,8 @@ ModelImporter:
     7400002: TireAileDroite
     7400004: TireAileGauche
     7400006: Saute
+    7400008: Atterri
+    7400010: Hit
     9500000: //RootNode
     11100000: //RootNode
     13700000: Poule_Ailes_Normales
@@ -543,13 +545,273 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 105
       lastFrame: 130
-      wrapMode: 0
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Poule_Ailes_Normales
+        weight: 1
+      - path: Poule_Corps
+        weight: 1
+      - path: Poule_Pates_Normales
+        weight: 1
+      - path: PouleOs_Master
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil00
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil10D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil10D/PouleOs_Orteil11D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil20D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil20D/PouleOs_Orteil21D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil30D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil30D/PouleOs_Orteil31D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil10G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil10G/PouleOs_Orteil11G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil20G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil20G/PouleOs_Orteil21G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil30G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil30G/PouleOs_Orteil31G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_OrteilG0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD/PouleOs_AileND_0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD/PouleOs_AileND_0/PouleOs_AileND_1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD/PouleOs_AileND_0/PouleOs_AileND_1/PouleOs_AileND_2
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD/PouleOs_AileND_0/PouleOs_AileND_1/PouleOs_AileND_2/PouleOs_AileND_3
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG/PouleOs_AileNG_0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG/PouleOs_AileNG_0/PouleOs_AileNG_1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG/PouleOs_AileNG_0/PouleOs_AileNG_1/PouleOs_AileNG_2
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG/PouleOs_AileNG_0/PouleOs_AileNG_1/PouleOs_AileNG_2/PouleOs_AileNG_3
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_Bec
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_Crete0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_Crete0/PouleOs_Crete1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_Crete0/PouleOs_Crete1/PouleOs_Crete2
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_YeuxClos
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_YeuxHit
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1/PouleOs_Dos2
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1/PouleOs_Dos2/PouleOs_Queue0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1/PouleOs_Dos2/PouleOs_Queue0/PouleOs_Queue1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1/PouleOs_Dos2/PouleOs_Queue0/PouleOs_Queue1/PouleOs_Queue2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Atterri
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 150
+      wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Poule_Ailes_Normales
+        weight: 1
+      - path: Poule_Corps
+        weight: 1
+      - path: Poule_Pates_Normales
+        weight: 1
+      - path: PouleOs_Master
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil00
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil10D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil10D/PouleOs_Orteil11D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil20D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil20D/PouleOs_Orteil21D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil30D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinD/PouleOs_FemurD/PouleOs_TibiasD/PouleOs_Patte_D/PouleOs_Orteil30D/PouleOs_Orteil31D
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil10G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil10G/PouleOs_Orteil11G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil20G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil20G/PouleOs_Orteil21G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil30G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_Orteil30G/PouleOs_Orteil31G
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_BassinG/PouleOs_FemurG/PouleOs_TibiasG/PouleOs_PatteG/PouleOs_OrteilG0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD/PouleOs_AileND_0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD/PouleOs_AileND_0/PouleOs_AileND_1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD/PouleOs_AileND_0/PouleOs_AileND_1/PouleOs_AileND_2
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleD/PouleOs_AileND_0/PouleOs_AileND_1/PouleOs_AileND_2/PouleOs_AileND_3
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG/PouleOs_AileNG_0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG/PouleOs_AileNG_0/PouleOs_AileNG_1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG/PouleOs_AileNG_0/PouleOs_AileNG_1/PouleOs_AileNG_2
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_EpauleG/PouleOs_AileNG_0/PouleOs_AileNG_1/PouleOs_AileNG_2/PouleOs_AileNG_3
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_Bec
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_Crete0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_Crete0/PouleOs_Crete1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_Crete0/PouleOs_Crete1/PouleOs_Crete2
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_YeuxClos
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Cou/PouleOs_Tete/PouleOs_YeuxHit
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1/PouleOs_Dos2
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1/PouleOs_Dos2/PouleOs_Queue0
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1/PouleOs_Dos2/PouleOs_Queue0/PouleOs_Queue1
+        weight: 1
+      - path: PouleOs_Master/PouleOs_Centre/PouleOs_Dos1/PouleOs_Dos2/PouleOs_Queue0/PouleOs_Queue1/PouleOs_Queue2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 155
+      lastFrame: 180
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
