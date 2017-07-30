@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: ab7ac3fe41594a741b90261a14151a8b
+labels:
+- Enemy
 timeCreated: 1495046485
 licenseType: Free
 ModelImporter:
@@ -33,6 +35,26 @@ ModelImporter:
     100050: KopterOs_Helice
     100052: KopterOs_M
     100054: KopterOs_Y
+    100056: KopterOs_AvBD
+    100058: KopterOs_AvBG
+    100060: KopterOs_BD
+    100062: KopterOs_BG
+    100064: KopterOs_Corps
+    100066: KopterOs_D00
+    100068: KopterOs_D01
+    100070: KopterOs_D10
+    100072: KopterOs_D11
+    100074: KopterOs_D20
+    100076: KopterOs_D21
+    100078: KopterOs_G00
+    100080: KopterOs_G01
+    100082: KopterOs_G10
+    100084: KopterOs_G11
+    100086: KopterOs_G20
+    100088: KopterOs_G21
+    100090: KopterOs_Master
+    100092: KopterOs_MD
+    100094: KopterOs_MG
     400000: //RootNode
     400002: Kopter
     400004: Kopter_OsAvBrasD
@@ -61,6 +83,28 @@ ModelImporter:
     400050: KopterOs_Helice
     400052: KopterOs_M
     400054: KopterOs_Y
+    400056: KopterOs_AvBD
+    400058: KopterOs_AvBG
+    400060: KopterOs_BD
+    400062: KopterOs_BG
+    400064: KopterOs_Corps
+    400066: KopterOs_D00
+    400068: KopterOs_D01
+    400070: KopterOs_D10
+    400072: KopterOs_D11
+    400074: KopterOs_D20
+    400076: KopterOs_D21
+    400078: KopterOs_G00
+    400080: KopterOs_G01
+    400082: KopterOs_G10
+    400084: KopterOs_G11
+    400086: KopterOs_G20
+    400088: KopterOs_G21
+    400090: KopterOs_Master
+    400092: KopterOs_MD
+    400094: KopterOs_MG
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Kopter
     7400000: Idle
     7400002: GoAttack
@@ -68,9 +112,10 @@ ModelImporter:
     7400006: BackIdle
     7400008: Hit
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Kopter
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -96,12 +141,12 @@ ModelImporter:
       name: Idle
       takeName: Take 001
       firstFrame: 5
-      lastFrame: 64
-      wrapMode: 0
+      lastFrame: 125
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
@@ -507,7 +552,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 1.25
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -542,10 +587,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
