@@ -7,13 +7,42 @@ ModelImporter:
   fileIDToRecycleName:
     100000: 1P_PorteHaute
     100002: //RootNode
+    100004: 1P_MurLateral-PorteHaute
+    100006: PortesOs_B0
+    100008: PortesOs_B1
+    100010: PortesOs_B2
+    100012: PortesOs_B3
+    100014: PortesOs_CadenasHaut
+    100016: PortesOs_ClefHaut
+    100018: PortesOs_D
+    100020: PortesOs_G
+    100022: PortesOs_LoquetHaut
+    100024: PortesOs_M
     400000: 1P_PorteHaute
     400002: //RootNode
+    400004: 1P_MurLateral-PorteHaute
+    400006: PortesOs_B0
+    400008: PortesOs_B1
+    400010: PortesOs_B2
+    400012: PortesOs_B3
+    400014: PortesOs_CadenasHaut
+    400016: PortesOs_ClefHaut
+    400018: PortesOs_D
+    400020: PortesOs_G
+    400022: PortesOs_LoquetHaut
+    400024: PortesOs_M
     2300000: 1P_PorteHaute
     3300000: 1P_PorteHaute
     4300000: 1P_PorteHaute
-    7400000: Take 001
+    7400000: PorteHaute_Locked
+    7400002: PorteHaute_ClosedLocked
+    7400004: PorteHaute_Unlocking
+    7400006: PorteHaute_Opening
+    7400008: PorteHaute_Open
+    7400010: PorteHaute_Closing
+    7400012: PorteHaute_Closed
     9500000: //RootNode
+    13700000: 1P_PorteHaute
   materials:
     importMaterials: 1
     materialName: 0
@@ -36,7 +65,385 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PorteHaute_Locked
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute/1P_PorteHaute
+        weight: 1
+      - path: PortesOs_M
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut/PortesOs_LoquetHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_ClefHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_D
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B0
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B3
+        weight: 1
+      - path: PortesOs_M/PortesOs_G
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B1
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PorteHaute_ClosedLocked
+      takeName: Take 001
+      firstFrame: 33
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute/1P_PorteHaute
+        weight: 1
+      - path: PortesOs_M
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut/PortesOs_LoquetHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_ClefHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_D
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B0
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B3
+        weight: 1
+      - path: PortesOs_M/PortesOs_G
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B1
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PorteHaute_Unlocking
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute/1P_PorteHaute
+        weight: 1
+      - path: PortesOs_M
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut/PortesOs_LoquetHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_ClefHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_D
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B0
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B3
+        weight: 1
+      - path: PortesOs_M/PortesOs_G
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B1
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PorteHaute_Opening
+      takeName: Take 001
+      firstFrame: 185
+      lastFrame: 223
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute/1P_PorteHaute
+        weight: 1
+      - path: PortesOs_M
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut/PortesOs_LoquetHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_ClefHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_D
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B0
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B3
+        weight: 1
+      - path: PortesOs_M/PortesOs_G
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B1
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PorteHaute_Open
+      takeName: Take 001
+      firstFrame: 223
+      lastFrame: 224
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute/1P_PorteHaute
+        weight: 1
+      - path: PortesOs_M
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut/PortesOs_LoquetHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_ClefHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_D
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B0
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B3
+        weight: 1
+      - path: PortesOs_M/PortesOs_G
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B1
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PorteHaute_Closing
+      takeName: Take 001
+      firstFrame: 228
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute/1P_PorteHaute
+        weight: 1
+      - path: PortesOs_M
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut/PortesOs_LoquetHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_ClefHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_D
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B0
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B3
+        weight: 1
+      - path: PortesOs_M/PortesOs_G
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B1
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PorteHaute_Closed
+      takeName: Take 001
+      firstFrame: 280
+      lastFrame: 281
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute
+        weight: 1
+      - path: 1P_MurLateral-PorteHaute/1P_PorteHaute
+        weight: 1
+      - path: PortesOs_M
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_CadenasHaut/PortesOs_LoquetHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_ClefHaut
+        weight: 1
+      - path: PortesOs_M/PortesOs_D
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B0
+        weight: 1
+      - path: PortesOs_M/PortesOs_D/PortesOs_B3
+        weight: 1
+      - path: PortesOs_M/PortesOs_G
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B1
+        weight: 1
+      - path: PortesOs_M/PortesOs_G/PortesOs_B2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
