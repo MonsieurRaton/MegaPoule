@@ -48,7 +48,7 @@ public class Player : MonoBehaviour {
             transform.localEulerAngles = new Vector3(0, 0, 0);
             myRigidbody.velocity = Vector3.zero;
         }
-        if (Input.GetKeyDown(KeyCode.RightControl)) {
+        if (Input.GetKeyDown(KeyCode.Space)) {
             Instantiate(projectile, transform.localPosition + Vector3.up + transform.forward*1.5f, transform.localRotation);
         }
 

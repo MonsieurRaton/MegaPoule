@@ -14,9 +14,9 @@ ModelImporter:
     400004: //RootNode
     400006: Piece1
     4300000: Piece1
-    7400000: Born
-    7400002: Idle
-    7400004: Die
+    7400000: Piece1_Born
+    7400002: Piece1_Idle
+    7400004: Piece1_Die
     9500000: //RootNode
     11100000: //RootNode
     13700000: Piece1
@@ -44,7 +44,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Born
+      name: Piece1_Born
       takeName: Take 001
       firstFrame: 5
       lastFrame: 30
@@ -80,7 +80,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Idle
+      name: Piece1_Idle
       takeName: Take 001
       firstFrame: 35
       lastFrame: 65
@@ -116,7 +116,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Die
+      name: Piece1_Die
       takeName: Take 001
       firstFrame: 70
       lastFrame: 85
