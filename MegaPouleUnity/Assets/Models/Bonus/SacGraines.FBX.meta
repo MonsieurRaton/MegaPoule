@@ -83,7 +83,7 @@ ModelImporter:
       name: SacGraine_Idle
       takeName: Take 001
       firstFrame: 35
-      lastFrame: 65
+      lastFrame: 95
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -118,7 +118,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SacGraine_Die
       takeName: Take 001
-      firstFrame: 70
+      firstFrame: 95
       lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
