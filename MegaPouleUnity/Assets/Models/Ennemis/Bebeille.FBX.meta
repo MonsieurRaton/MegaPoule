@@ -30,7 +30,7 @@ ModelImporter:
     13700000: BeillPik
     13700002: Bebeille
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:

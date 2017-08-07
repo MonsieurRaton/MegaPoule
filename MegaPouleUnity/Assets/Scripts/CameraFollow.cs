@@ -29,6 +29,8 @@ public class CameraFollow : MonoBehaviour {
             camTargetPosition = target.localPosition + decalage - (Vector3.right * walkingOffset);
         } else if (target.localEulerAngles.y == 90f) {
             camTargetPosition = target.localPosition + decalage + (Vector3.right * walkingOffset);
+        } else {
+            camTargetPosition = target.localPosition + decalage;
         }
         transform.localPosition = Vector3.Lerp(transform.localPosition, camTargetPosition, smooth * Time.deltaTime);
     }
