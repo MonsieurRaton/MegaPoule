@@ -106,11 +106,11 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Kopter
-    7400000: Idle
-    7400002: GoAttack
-    7400004: Attacking
-    7400006: BackIdle
-    7400008: Hit
+    7400000: Kopter_Idle
+    7400002: Kopter_GoAttack
+    7400004: Kopter_Attack
+    7400006: Kopter_BackIdle
+    7400008: Kopter_Hit
     9500000: //RootNode
     11100000: //RootNode
     13700000: Kopter
@@ -138,7 +138,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: Kopter_Idle
       takeName: Take 001
       firstFrame: 5
       lastFrame: 125
@@ -220,11 +220,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: GoAttack
+      name: Kopter_GoAttack
       takeName: Take 001
       firstFrame: 70
       lastFrame: 80
-      wrapMode: 0
+      wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -302,15 +302,15 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Attacking
+      name: Kopter_Attack
       takeName: Take 001
       firstFrame: 82
       lastFrame: 82
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
@@ -384,11 +384,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: BackIdle
+      name: Kopter_BackIdle
       takeName: Take 001
       firstFrame: 85
       lastFrame: 100
-      wrapMode: 0
+      wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -466,11 +466,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Hit
+      name: Kopter_Hit
       takeName: Take 001
-      firstFrame: 105
-      lastFrame: 125
-      wrapMode: 0
+      firstFrame: 195
+      lastFrame: 215
+      wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0

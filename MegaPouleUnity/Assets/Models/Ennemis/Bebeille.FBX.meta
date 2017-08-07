@@ -12,6 +12,7 @@ ModelImporter:
     100008: BeillPikOs_M
     100010: BeillPikOs_Corps
     100012: BeillPikOs_Master
+    100014: Bebeille
     400000: //RootNode
     400002: BeillPik
     400004: BeillPikOs_AD
@@ -19,13 +20,17 @@ ModelImporter:
     400008: BeillPikOs_M
     400010: BeillPikOs_Corps
     400012: BeillPikOs_Master
+    400014: Bebeille
     4300000: BeillPik
-    7400000: Idle
+    4300002: Bebeille
+    7400000: Bebeille_Plante
+    7400002: Bebeille_Idle
     9500000: //RootNode
     11100000: //RootNode
     13700000: BeillPik
+    13700002: Bebeille
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -48,10 +53,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: Bebeille_Idle
       takeName: Take 001
       firstFrame: 5
-      lastFrame: 24
+      lastFrame: 25
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -76,11 +81,53 @@ ModelImporter:
         weight: 1
       - path: BeillPik
         weight: 1
-      - path: BeillPikOs_M
+      - path: BeillPikOs_Master
         weight: 1
-      - path: BeillPikOs_M/BeillPikOs_AD
+      - path: BeillPikOs_Master/BeillPikOs_Corps
         weight: 1
-      - path: BeillPikOs_M/BeillPikOs_AG
+      - path: BeillPikOs_Master/BeillPikOs_Corps/BeillPikOs_AD
+        weight: 1
+      - path: BeillPikOs_Master/BeillPikOs_Corps/BeillPikOs_AG
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bebeille_Plante
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bebeille
+        weight: 1
+      - path: BeillPikOs_Master
+        weight: 1
+      - path: BeillPikOs_Master/BeillPikOs_Corps
+        weight: 1
+      - path: BeillPikOs_Master/BeillPikOs_Corps/BeillPikOs_AD
+        weight: 1
+      - path: BeillPikOs_Master/BeillPikOs_Corps/BeillPikOs_AG
         weight: 1
       maskType: 3
       maskSource: {instanceID: 0}
