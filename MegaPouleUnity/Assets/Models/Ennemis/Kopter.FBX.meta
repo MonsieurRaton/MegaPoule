@@ -141,7 +141,7 @@ ModelImporter:
       name: Kopter_Idle
       takeName: Take 001
       firstFrame: 5
-      lastFrame: 125
+      lastFrame: 124
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
