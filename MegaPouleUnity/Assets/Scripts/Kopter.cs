@@ -19,16 +19,16 @@ public class Kopter : MonoBehaviour {
     }
 	
 	void Update () {
-        rotorBone.Rotate(0, 0, rotorRotationSpeed * Time.deltaTime, Space.Self);
+        rotorBone.Rotate(0, rotorRotationSpeed * Time.deltaTime, 0, Space.Self);
     }
 
 
     private void OnCollisionEnter(Collision collision) {
         myAnimator.Play("Hit");
+        Blink();
         if (collision.transform.CompareTag("Projectile")) {
             Destroy(collision.gameObject);
         }
-        Blink();
     }
 
     private void OnTriggerEnter(Collider other) {

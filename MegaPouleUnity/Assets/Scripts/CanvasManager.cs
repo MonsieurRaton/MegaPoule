@@ -8,7 +8,7 @@ public class CanvasManager : MonoBehaviour {
     public static CanvasManager main;
 
     [SerializeField] private Text lifeText;
-    [SerializeField] private Text otherText;
+    [SerializeField] private Text pieceText;
 
     void Awake () {
         if (main == null) {
@@ -20,10 +20,10 @@ public class CanvasManager : MonoBehaviour {
 	}
 	
 	public void UpdateLifeText (int newLife) {
-        lifeText.text = "Vie: " + newLife;
+        lifeText.text = "x " + newLife;
     }
 
-    public void UpdateOtherText(int newScore) {
-        otherText.text = "Energie: XX/YY\nArme actuelle : Cailloux(∞)\nPièces: " + newScore;
+    public void UpdatePieceText(int newScore) {
+        pieceText.text = ": " + newScore;
     }
 }

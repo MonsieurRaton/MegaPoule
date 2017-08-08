@@ -12,6 +12,8 @@ public class Player : MonoBehaviour {
     [SerializeField] private GameObject projectile;
     /// <summary> Indique si la poule touche le sol. </summary>
     [SerializeField] private bool isGrounded;
+    /// <summary> Indique si la poule fait son attaque popotin. </summary>
+    [SerializeField] private bool doAttackPopotin;
     private int life;
     private int score;
 
@@ -22,15 +24,18 @@ public class Player : MonoBehaviour {
         life = 3;
         score = 0;
         CanvasManager.main.UpdateLifeText(life);
-        CanvasManager.main.UpdateOtherText(score);
+        CanvasManager.main.UpdatePieceText(score);
     }
 	
 	void Update () {
 
-        isGrounded = Physics.Raycast(transform.localPosition + Vector3.up, Vector3.down, 1.01f);
+        isGrounded = Physics.Raycast(transform.localPosition + Vector3.up, Vector3.down, 1.2f); //1.2 pour les pentes
         myAnimator.SetBool("IsJumping", !isGrounded); // bool "IsJumping"
         if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded) {
             myRigidbody.AddForce(Vector3.up*jumpPower);
+        }
+        if (!isGrounded && Input.GetKeyDown(KeyCode.DownArrow)) {
+            doAttackPopotin = true;
         }
 
 #if UNITY_EDITOR
@@ -71,14 +76,23 @@ public class Player : MonoBehaviour {
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Bonus")) {
             Bonus bonus = other.GetComponent<Bonus>();
-            life += bonus.bonusLife;
-            score += bonus.bonusScore;
-            bonus.Pick();
-            CanvasManager.main.UpdateLifeText(life);
-            CanvasManager.main.UpdateOtherText(score);
+            if (!bonus.picked) { // Le bonus n'a pas été déjà ramassé.
+                life += bonus.bonusLife;
+                score += bonus.bonusScore;
+                bonus.Pick();
+                CanvasManager.main.UpdateLifeText(life);
+                CanvasManager.main.UpdatePieceText(score);
+            }
         }
     }
 
+    private void OnCollisionEnter(Collision collision) {
+        
+        if (doAttackPopotin && collision.transform.GetComponent<Caisse>() != null) {
+            collision.transform.GetComponent<Caisse>().GrosPopotin();
+        }
+        doAttackPopotin = false;
+    }
 
 
 }

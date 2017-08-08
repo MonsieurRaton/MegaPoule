@@ -21,6 +21,8 @@ public class Bonus : MonoBehaviour {
 
     public void Pick() {
         picked = true;
+        bonusLife = 0;
+        bonusScore = 0;
         myAnimator.SetBool("Picked", true);
         Destroy(gameObject, 0.5f);
     }
